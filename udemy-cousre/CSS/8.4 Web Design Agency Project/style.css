@@ -1,0 +1,99 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.logo {
+  width: 200px;
+}
+
+.main {
+  flex: 1;
+}
+
+.card {
+  flex: 1;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 2;
+}
+
+img.tile-image {
+  width: 300px;
+}
+
+/* ให้รูปอยู่ข้างซ้าย คำอยู่ขวา */
+.left img {
+  float: left;
+}
+
+.right img {
+  float: left;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+span {
+  color: darkblue;
+}
+
+.tile-image {
+  margin-right: 50px;
+}
+
+/* จัดให้มีขนาด 45 55 เเบ่งเป็น 2 ฝั่ง */
+.card {
+  width: 45%;
+}
+
+/* จัดให้ left อยู่ซ้าย */
+.left {
+  float: left;
+}
+
+/* จัดให้ right อยู่ขวา */
+.right {
+  float: right;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+/* จัดให้ไม่ซ้อน */
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+ 
+  /* จัดให้รูปเต็มไม่มีคำอยู่ข้างๆ */
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}

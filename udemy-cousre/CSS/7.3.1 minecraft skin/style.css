@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%; 
+    font-family: 'Minecraft', sans-serif;
+    position: relative;
+}
+
+.background { 
+    position: absolute;
+    background-image: url("./wp2777645.jpg");
+    background-position: center; 
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+    z-index: -1; 
+    filter: blur(6px);
+    transform: scale(1.1);
+} 
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+    color: #76453B;
+    margin: 0;
+}
+
+#bob .face {
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    background: #F8F5E3;
+    position: relative;  
+}
+
+#bob .mouth {
+    width: 114px;
+    height: 47px;
+    background: #FF5757;
+    position: absolute; 
+    top: 343px;
+    left: 201px
+}
+
+
+#bob .eye {
+    width: 114px;
+    height: 133px;
+    background: white;
+    position: absolute; 
+    top: 170px;
+    left: 315px
+}
+
+#bob .eye .up {
+    width: 57px;
+    height: 87px;
+    background: #38B6FF;
+    position: absolute; 
+}
+
+#bob .eye .down {
+    width: 57px;
+    height: 54px;
+    background: #D0EBFA;
+    position: absolute;
+    top: 79px; 
+}
+
+#bob .hair .hair-1 {
+    width: 57px;
+    height: 385px;
+    background: #856F6A;
+    position: absolute; 
+}
+
+#bob .hair .hair-1 .dark-hl-1 {
+    width: 57px;
+    height: 57px;
+    background: #4D3B37;
+    position: absolute;
+    bottom: 100px; 
+}
+
+#bob .hair .hair-2 {
+    width: 57px;
+    height: 335px;
+    background: #856F6A; 
+    position: absolute; 
+    left: 57px;
+}
+
+#bob .hair .hair-2 .light-hl-2 {
+    width: 57px;
+    height: 171px;
+    background: #A48E89;
+    position: absolute;
+    bottom: 164px; 
+}
+
+#bob .hair .hair-2 .dark-hl-2 {
+    width: 57px;
+    height: 57px;
+    background: #4D3B37;
+    position: absolute;
+    bottom: 107px; 
+}
+
+#bob .hair .hair-3 {
+    width: 57px;
+    height: 285px;
+    background: #856F6A; 
+    position: absolute; 
+    left: 114px;
+}
+
+#bob .hair .hair-3 .dark-hl-3 {
+    width: 57px;
+    height: 57px;
+    background: #4D3B37;
+    position: absolute;
+    bottom: 114px; 
+}
+
+#bob .hair .hair-4 {
+    width: 57px;
+    height: 235px;
+    background: #856F6A; 
+    position: absolute; 
+    left: 171px;
+}
+
+#bob .hair .hair-4 .light-hl-4 {
+    width: 57px;
+    height: 71px;
+    background: #A48E89;
+    position: absolute;
+    bottom: 164px; 
+}
+
+#bob .hair .hair-4 .dark-hl-4 {
+    width: 57px;
+    height: 57px;
+    background: #4D3B37;
+    position: absolute;
+    bottom: 121px; 
+}
+
+#bob .hair .hair-5 {
+    width: 57px;
+    height: 185px;
+    background: #856F6A; 
+    position: absolute; 
+    left: 228px;
+}
+
+#bob .hair .hair-5 .dark-hl-5 {
+    width: 57px;
+    height: 57px;
+    background: #4D3B37;
+    position: absolute;
+    bottom: 128px; 
+}
+
+#bob .hair .hair-6 {
+    width: 57px;
+    height: 150px;
+    background: #856F6A; 
+    position: absolute; 
+    left: 285px;
+}
+
+#bob .hair .hair-mid-7 {
+    width: 158px;
+    height: 100px;
+    background: #856F6A; 
+    position: absolute; 
+    left: 342px;
+}
+
+#bob .hair .hair-mid-7 .light-hl-7 {
+    width: 57px;
+    height: 57px;
+    background: #A48E89;
+    position: absolute;
+    bottom: 43px; 
+    left: 44px;
+}
+
+#bob .hair .hair-last-8 {
+    width: 57px;
+    height: 150px;
+    background: #856F6A; 
+    position: relative; 
+    left: 443px;
+}
+
+
+#bob .hair .hair-last-8 .light-hl-8 {
+    width: 57px;
+    height: 44px;
+    background: #A48E89;
+    position: absolute;
+    bottom: 49px; 
+}
+
+
+
+
+
